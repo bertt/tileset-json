@@ -1,5 +1,6 @@
 using NUnit.Framework;
 using System.IO;
+using System.Numerics;
 using Tileset.Json;
 
 namespace Tests
