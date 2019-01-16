@@ -1,4 +1,5 @@
 ﻿using System.Collections.Generic;
+using System.Diagnostics;
 using System.Numerics;
 
 namespace Tileset.Json
@@ -20,7 +21,7 @@ namespace Tileset.Json
             var tileCenter = relativeCenterTile + root.GetCenter();
 
             // first print the distances to camera for each tile
-
+            Debug.WriteLine("hallo");
 
             var distanceToCamera = (cameraPosition - tileCenter).Length();
 
@@ -33,6 +34,5 @@ namespace Tileset.Json
 
             return null;
         }
-
     }
 }
