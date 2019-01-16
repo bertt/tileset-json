@@ -27,6 +27,5 @@ namespace Tests
             Assert.IsTrue(rootobject.Asset.Version == "0.0");
             Assert.IsTrue(rootobject.GeometricError == 33.625);
         }
-
     }
 }

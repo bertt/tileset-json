@@ -3,7 +3,6 @@ using System.IO;
 
 namespace Tileset.Json
 {
-
     public static class TilesetJsonParser
     {
         public static Rootobject ParseTilesetJson(Stream stream)
@@ -14,5 +13,4 @@ namespace Tileset.Json
             return rootobject;
         }
     }
-
 }
