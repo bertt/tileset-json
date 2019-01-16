@@ -1,4 +1,5 @@
 using NUnit.Framework;
+using System.Collections.Generic;
 using System.IO;
 using System.Numerics;
 using Tileset.Json;
@@ -34,13 +35,16 @@ namespace Tests
             var stream = File.OpenRead(infile);
             var rootobject = TilesetJsonParser.ParseTilesetJson(stream);
             var cameraPosition = rootobject.Root.GetCenter() + new Vector3(0,0,100);
-            double[] distanceLod = new double[] { 100, 200, 300 };
+            double max_distance = 100;
+            var center = rootobject.Root.GetCenter();
+            var camera = rootobject.Root.GetCenter() + new Vector3(0, 0, 100);
+            var files = new List<Child>();
 
-            // act
-            var tiles = TileSelector.GetTilesInView(rootobject.Root, cameraPosition, distanceLod);
+            // act: select all tiles within 100m from camera
+            var tiles = TileSelector.GetTiles(center, camera, rootobject.Root.Children[0], files, max_distance);
 
             // assert
-            Assert.IsTrue(tiles != null);
+            Assert.IsTrue(tiles.Count==18);
         }
 
 
