@@ -1,6 +1,5 @@
 using NUnit.Framework;
 using System.IO;
-using System.Numerics;
 using Tileset.Json;
 
 namespace Tests
@@ -16,6 +15,8 @@ namespace Tests
             Assert.IsTrue(rootobject.Asset.Version == "1.0");
             Assert.IsTrue(rootobject.GeometricError == 500);
             Assert.IsTrue(rootobject.Root.Transform.Length == 16);
+            Assert.IsTrue(rootobject.Root.Children[0].Children[0].Children.Length == 2);
+            Assert.IsTrue(rootobject.Root.Children[0].Children[0].Children[0].Content.Url == "tiles/3.b3dm");
         }
 
 
