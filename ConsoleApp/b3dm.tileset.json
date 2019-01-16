@@ -1,0 +1,523 @@
+﻿{
+  "asset": {
+    "version": "1.0",
+    "gltfUpAxis": "Z"
+  },
+  "geometricError": 500,
+  "root": {
+    "boundingVolume": { "box": [ 0.0, 0.0, 0.0, 359.644, 0, 0, 0, 636.647, 0, 0, 0, 240.129 ] },
+    "geometricError": 500,
+    "children": [
+      {
+        "boundingVolume": { "box": [ 0.0, 0.0, 0.0, 359.644, 0, 0, 0, 636.647, 0, 0, 0, 240.129 ] },
+        "geometricError": 250.0,
+        "children": [
+          {
+            "boundingVolume": { "box": [ 0.428, -2.94, -0.581, 358.789, 0, 0, 0, 630.767, 0, 0, 0, 238.968 ] },
+            "geometricError": 125.0,
+            "children": [
+              {
+                "boundingVolume": { "box": [ 11.713, -67.375, -7.114, 336.218, 0, 0, 0, 501.896, 0, 0, 0, 225.901 ] },
+                "geometricError": 62.5,
+                "children": [
+                  {
+                    "boundingVolume": { "box": [ -56.395, 62.562, 35.858, 200.001, 0, 0, 0, 242.02, 0, 0, 0, 139.956 ] },
+                    "geometricError": 31.25,
+                    "children": [
+                      {
+                        "boundingVolume": { "box": [ -93.881, 1.495, 68.827, 85.645, 0, 0, 0, 110.819, 0, 0, 0, 71.402 ] },
+                        "geometricError": 15.625,
+                        "children": [
+                          {
+                            "boundingVolume": { "box": [ -125.256, -22.573, 93.607, 22.895, 0, 0, 0, 12.902, 0, 0, 0, 21.844 ] },
+                            "geometricError": 7.8125,
+                            "children": [],
+                            "refine": "add",
+                            "content": { "url": "tiles/6.b3dm" }
+                          },
+                          {
+                            "boundingVolume": { "box": [ -126.394, -2.911, 91.689, 10.559, 0, 0, 0, 4.411, 0, 0, 0, 12.68 ] },
+                            "geometricError": 7.8125,
+                            "children": [],
+                            "refine": "add",
+                            "content": { "url": "tiles/7.b3dm" }
+                          },
+                          {
+                            "boundingVolume": { "box": [ -80.122, -29.647, 60.018, 42.429, 0, 0, 0, 46.569, 0, 0, 0, 39.186 ] },
+                            "geometricError": 7.8125,
+                            "children": [
+                              {
+                                "boundingVolume": { "box": [ -91.801, -38.421, 70.831, 11.222, 0, 0, 0, 3.228, 0, 0, 0, 12.363 ] },
+                                "geometricError": 3.90625,
+                                "children": [],
+                                "refine": "add",
+                                "content": { "url": "tiles/9.b3dm" }
+                              },
+                              {
+                                "boundingVolume": { "box": [ -90.028, -25.812, 69.258, 16.033, 0, 0, 0, 25.995, 0, 0, 0, 17.898 ] },
+                                "geometricError": 3.90625,
+                                "children": [],
+                                "refine": "add",
+                                "content": { "url": "tiles/10.b3dm" }
+                              },
+                              {
+                                "boundingVolume": { "box": [ -84.924, -46.915, 67.279, 9.848, 0, 0, 0, 2.413, 0, 0, 0, 13.334 ] },
+                                "geometricError": 3.90625,
+                                "children": [],
+                                "refine": "add",
+                                "content": { "url": "tiles/11.b3dm" }
+                              },
+                              {
+                                "boundingVolume": { "box": [ -75.515, -20.49, 57.102, 33.217, 0, 0, 0, 28.256, 0, 0, 0, 33.355 ] },
+                                "geometricError": 3.90625,
+                                "children": [
+                                  {
+                                    "boundingVolume": { "box": [ -79.319, -16.391, 57.743, 10.15, 0, 0, 0, 3.693, 0, 0, 0, 11.983 ] },
+                                    "geometricError": 1.953125,
+                                    "children": [],
+                                    "refine": "add",
+                                    "content": { "url": "tiles/13.b3dm" }
+                                  },
+                                  {
+                                    "boundingVolume": { "box": [ -69.277, -8.151, 50.809, 10.146, 0, 0, 0, 3.577, 0, 0, 0, 11.358 ] },
+                                    "geometricError": 1.953125,
+                                    "children": [],
+                                    "refine": "add",
+                                    "content": { "url": "tiles/14.b3dm" }
+                                  }
+                                ],
+                                "refine": "add",
+                                "content": { "url": "tiles/12.b3dm" }
+                              }
+                            ],
+                            "refine": "add",
+                            "content": { "url": "tiles/8.b3dm" }
+                          },
+                          {
+                            "boundingVolume": { "box": [ -82.838, 24.926, 59.134, 56.957, 0, 0, 0, 63.957, 0, 0, 0, 47.946 ] },
+                            "geometricError": 7.8125,
+                            "children": [
+                              {
+                                "boundingVolume": { "box": [ -93.072, 17.349, 66.897, 22.654, 0, 0, 0, 18.727, 0, 0, 0, 22.176 ] },
+                                "geometricError": 3.90625,
+                                "children": [],
+                                "refine": "add",
+                                "content": { "url": "tiles/16.b3dm" }
+                              },
+                              {
+                                "boundingVolume": { "box": [ -96.46, 40.276, 69.079, 29.714, 0, 0, 0, 33.257, 0, 0, 0, 28.057 ] },
+                                "geometricError": 3.90625,
+                                "children": [
+                                  {
+                                    "boundingVolume": { "box": [ -105.548, 45.383, 77.137, 10.012, 0, 0, 0, 1.626, 0, 0, 0, 11.94 ] },
+                                    "geometricError": 1.953125,
+                                    "children": [],
+                                    "refine": "add",
+                                    "content": { "url": "tiles/18.b3dm" }
+                                  },
+                                  {
+                                    "boundingVolume": { "box": [ -86.245, 34.227, 64.099, 9.285, 0, 0, 0, 2.063, 0, 0, 0, 12.036 ] },
+                                    "geometricError": 1.953125,
+                                    "children": [],
+                                    "refine": "add",
+                                    "content": { "url": "tiles/19.b3dm" }
+                                  },
+                                  {
+                                    "boundingVolume": { "box": [ -95.093, 53.428, 64.97, 9.11, 0, 0, 0, 2.943, 0, 0, 0, 11.761 ] },
+                                    "geometricError": 1.953125,
+                                    "children": [],
+                                    "refine": "add",
+                                    "content": { "url": "tiles/20.b3dm" }
+                                  }
+                                ],
+                                "refine": "add",
+                                "content": { "url": "tiles/17.b3dm" }
+                              },
+                              {
+                                "boundingVolume": { "box": [ -76.143, 7.764, 54.633, 30.422, 0, 0, 0, 29.634, 0, 0, 0, 29.576 ] },
+                                "geometricError": 3.90625,
+                                "children": [
+                                  {
+                                    "boundingVolume": { "box": [ -76.961, 4.381, 59.921, 11.121, 0, 0, 0, 3.203, 0, 0, 0, 12.152 ] },
+                                    "geometricError": 1.953125,
+                                    "children": [],
+                                    "refine": "add",
+                                    "content": { "url": "tiles/22.b3dm" }
+                                  },
+                                  {
+                                    "boundingVolume": { "box": [ -84.23, 20.748, 59.366, 10.891, 0, 0, 0, 3.665, 0, 0, 0, 13.581 ] },
+                                    "geometricError": 1.953125,
+                                    "children": [],
+                                    "refine": "add",
+                                    "content": { "url": "tiles/23.b3dm" }
+                                  },
+                                  {
+                                    "boundingVolume": { "box": [ -65.88, 11.673, 47.117, 9.896, 0, 0, 0, 4.282, 0, 0, 0, 13.313 ] },
+                                    "geometricError": 1.953125,
+                                    "children": [],
+                                    "refine": "add",
+                                    "content": { "url": "tiles/24.b3dm" }
+                                  }
+                                ],
+                                "refine": "add",
+                                "content": { "url": "tiles/21.b3dm" }
+                              },
+                              {
+                                "boundingVolume": { "box": [ -74.822, 39.437, 54.029, 29.393, 0, 0, 0, 11.198, 0, 0, 0, 31.247 ] },
+                                "geometricError": 3.90625,
+                                "children": [],
+                                "refine": "add",
+                                "content": { "url": "tiles/25.b3dm" }
+                              }
+                            ],
+                            "refine": "add",
+                            "content": { "url": "tiles/15.b3dm" }
+                          }
+                        ],
+                        "refine": "add",
+                        "content": { "url": "tiles/5.b3dm" }
+                      },
+                      {
+                        "boundingVolume": { "box": [ -103.144, 119.897, 67.194, 106.504, 0, 0, 0, 127.351, 0, 0, 0, 77.284 ] },
+                        "geometricError": 15.625,
+                        "children": [
+                          {
+                            "boundingVolume": { "box": [ -118.859, 88.339, 81.955, 13.911, 0, 0, 0, 4.727, 0, 0, 0, 15.839 ] },
+                            "geometricError": 7.8125,
+                            "children": [],
+                            "refine": "add",
+                            "content": { "url": "tiles/27.b3dm" }
+                          },
+                          {
+                            "boundingVolume": { "box": [ -140.99, 160.786, 93.318, 30.811, 0, 0, 0, 21.146, 0, 0, 0, 25.036 ] },
+                            "geometricError": 7.8125,
+                            "children": [],
+                            "refine": "add",
+                            "content": { "url": "tiles/28.b3dm" }
+                          },
+                          {
+                            "boundingVolume": { "box": [ -85.132, 86.914, 58.116, 69.763, 0, 0, 0, 61.386, 0, 0, 0, 59.127 ] },
+                            "geometricError": 7.8125,
+                            "children": [
+                              {
+                                "boundingVolume": { "box": [ -100.568, 65.376, 70.415, 38.891, 0, 0, 0, 18.309, 0, 0, 0, 34.528 ] },
+                                "geometricError": 3.90625,
+                                "children": [],
+                                "refine": "add",
+                                "content": { "url": "tiles/30.b3dm" }
+                              },
+                              {
+                                "boundingVolume": { "box": [ -93.558, 107.642, 60.462, 15.88, 0, 0, 0, 19.931, 0, 0, 0, 17.09 ] },
+                                "geometricError": 3.90625,
+                                "children": [],
+                                "refine": "add",
+                                "content": { "url": "tiles/31.b3dm" }
+                              },
+                              {
+                                "boundingVolume": { "box": [ -70.347, 69.426, 46.985, 40.194, 0, 0, 0, 17.203, 0, 0, 0, 36.866 ] },
+                                "geometricError": 3.90625,
+                                "children": [],
+                                "refine": "add",
+                                "content": { "url": "tiles/32.b3dm" }
+                              },
+                              {
+                                "boundingVolume": { "box": [ -82.254, 105.215, 55.971, 16.08, 0, 0, 0, 18.572, 0, 0, 0, 19.117 ] },
+                                "geometricError": 3.90625,
+                                "children": [],
+                                "refine": "add",
+                                "content": { "url": "tiles/33.b3dm" }
+                              }
+                            ],
+                            "refine": "add",
+                            "content": { "url": "tiles/29.b3dm" }
+                          },
+                          {
+                            "boundingVolume": { "box": [ -95.009, 154.323, 60.038, 46.036, 0, 0, 0, 58.499, 0, 0, 0, 38.084 ] },
+                            "geometricError": 7.8125,
+                            "children": [
+                              {
+                                "boundingVolume": { "box": [ -97.088, 138.725, 64.638, 29.236, 0, 0, 0, 27.304, 0, 0, 0, 28.883 ] },
+                                "geometricError": 3.90625,
+                                "children": [],
+                                "refine": "add",
+                                "content": { "url": "tiles/35.b3dm" }
+                              },
+                              {
+                                "boundingVolume": { "box": [ -98.457, 167.271, 62.15, 39.141, 0, 0, 0, 32.603, 0, 0, 0, 31.161 ] },
+                                "geometricError": 3.90625,
+                                "children": [],
+                                "refine": "add",
+                                "content": { "url": "tiles/36.b3dm" }
+                              },
+                              {
+                                "boundingVolume": { "box": [ -81.565, 136.727, 52.583, 17.684, 0, 0, 0, 16.933, 0, 0, 0, 22.312 ] },
+                                "geometricError": 3.90625,
+                                "children": [],
+                                "refine": "add",
+                                "content": { "url": "tiles/37.b3dm" }
+                              },
+                              {
+                                "boundingVolume": { "box": [ -81.343, 165.433, 50.971, 18.705, 0, 0, 0, 29.991, 0, 0, 0, 19.134 ] },
+                                "geometricError": 3.90625,
+                                "children": [
+                                  {
+                                    "boundingVolume": { "box": [ -77.499, 157.079, 50.215, 8.147, 0, 0, 0, 1.951, 0, 0, 0, 12.838 ] },
+                                    "geometricError": 1.953125,
+                                    "children": [],
+                                    "refine": "add",
+                                    "content": { "url": "tiles/39.b3dm" }
+                                  },
+                                  {
+                                    "boundingVolume": { "box": [ -79.161, 179.569, 49.937, 10.569, 0, 0, 0, 1.718, 0, 0, 0, 12.866 ] },
+                                    "geometricError": 1.953125,
+                                    "children": [],
+                                    "refine": "add",
+                                    "content": { "url": "tiles/40.b3dm" }
+                                  }
+                                ],
+                                "refine": "add",
+                                "content": { "url": "tiles/38.b3dm" }
+                              }
+                            ],
+                            "refine": "add",
+                            "content": { "url": "tiles/34.b3dm" }
+                          }
+                        ],
+                        "refine": "add",
+                        "content": { "url": "tiles/26.b3dm" }
+                      },
+                      {
+                        "boundingVolume": { "box": [ -8.282, 0.089, 5.113, 103.775, 0, 0, 0, 117.072, 0, 0, 0, 78.467 ] },
+                        "geometricError": 15.625,
+                        "children": [
+                          {
+                            "boundingVolume": { "box": [ -25.614, -20.329, 17.773, 69.112, 0, 0, 0, 32.894, 0, 0, 0, 53.146 ] },
+                            "geometricError": 7.8125,
+                            "children": [
+                              {
+                                "boundingVolume": { "box": [ -35.225, -25.288, 30.554, 21.106, 0, 0, 0, 17.981, 0, 0, 0, 22.654 ] },
+                                "geometricError": 3.90625,
+                                "children": [],
+                                "refine": "add",
+                                "content": { "url": "tiles/43.b3dm" }
+                              },
+                              {
+                                "boundingVolume": { "box": [ -4.481, -24.496, 3.348, 26.846, 0, 0, 0, 13.276, 0, 0, 0, 24.296 ] },
+                                "geometricError": 3.90625,
+                                "children": [],
+                                "refine": "add",
+                                "content": { "url": "tiles/44.b3dm" }
+                              }
+                            ],
+                            "refine": "add",
+                            "content": { "url": "tiles/42.b3dm" }
+                          },
+                          {
+                            "boundingVolume": { "box": [ -37.272, 6.881, 31.205, 40.442, 0, 0, 0, 19.423, 0, 0, 0, 26.06 ] },
+                            "geometricError": 7.8125,
+                            "children": [],
+                            "refine": "add",
+                            "content": { "url": "tiles/45.b3dm" }
+                          },
+                          {
+                            "boundingVolume": { "box": [ 25.075, -35.059, -19.04, 37.06, 0, 0, 0, 46.776, 0, 0, 0, 30.16 ] },
+                            "geometricError": 7.8125,
+                            "children": [
+                              {
+                                "boundingVolume": { "box": [ 28.947, -45.942, -18.916, 29.318, 0, 0, 0, 12.439, 0, 0, 0, 23.828 ] },
+                                "geometricError": 3.90625,
+                                "children": [],
+                                "refine": "add",
+                                "content": { "url": "tiles/47.b3dm" }
+                              },
+                              {
+                                "boundingVolume": { "box": [ 23.373, -23.179, -19.04, 33.656, 0, 0, 0, 23.015, 0, 0, 0, 30.16 ] },
+                                "geometricError": 3.90625,
+                                "children": [
+                                  {
+                                    "boundingVolume": { "box": [ 21.95, -15.775, -16.538, 8.083, 0, 0, 0, 2.131, 0, 0, 0, 12.345 ] },
+                                    "geometricError": 1.953125,
+                                    "children": [],
+                                    "refine": "add",
+                                    "content": { "url": "tiles/49.b3dm" }
+                                  },
+                                  {
+                                    "boundingVolume": { "box": [ 28.223, -30.338, -19.446, 10.743, 0, 0, 0, 7.898, 0, 0, 0, 17.495 ] },
+                                    "geometricError": 1.953125,
+                                    "children": [],
+                                    "refine": "add",
+                                    "content": { "url": "tiles/50.b3dm" }
+                                  },
+                                  {
+                                    "boundingVolume": { "box": [ 27.345, -14.48, -19.184, 13.316, 0, 0, 0, 3.755, 0, 0, 0, 13.66 ] },
+                                    "geometricError": 1.953125,
+                                    "children": [],
+                                    "refine": "add",
+                                    "content": { "url": "tiles/51.b3dm" }
+                                  }
+                                ],
+                                "refine": "add",
+                                "content": { "url": "tiles/48.b3dm" }
+                              }
+                            ],
+                            "refine": "add",
+                            "content": { "url": "tiles/46.b3dm" }
+                          }
+                        ],
+                        "refine": "add",
+                        "content": { "url": "tiles/41.b3dm" }
+                      },
+                      {
+                        "boundingVolume": { "box": [ -53.163, 64.123, 36.46, 14.134, 0, 0, 0, 14.566, 0, 0, 0, 19.095 ] },
+                        "geometricError": 15.625,
+                        "children": [],
+                        "refine": "add",
+                        "content": { "url": "tiles/52.b3dm" }
+                      }
+                    ],
+                    "refine": "add",
+                    "content": { "url": "tiles/4.b3dm" }
+                  },
+                  {
+                    "boundingVolume": { "box": [ 152.146, -290.131, -97.667, 55.352, 0, 0, 0, 56.384, 0, 0, 0, 44.796 ] },
+                    "geometricError": 31.25,
+                    "children": [],
+                    "refine": "add",
+                    "content": { "url": "tiles/53.b3dm" }
+                  }
+                ],
+                "refine": "add",
+                "content": { "url": "tiles/3.b3dm" }
+              },
+              {
+                "boundingVolume": { "box": [ -127.805, 245.677, 80.199, 102.322, 0, 0, 0, 133.532, 0, 0, 0, 77.408 ] },
+                "geometricError": 62.5,
+                "children": [
+                  {
+                    "boundingVolume": { "box": [ -126.558, 245.677, 80.199, 99.828, 0, 0, 0, 133.532, 0, 0, 0, 77.408 ] },
+                    "geometricError": 31.25,
+                    "children": [
+                      {
+                        "boundingVolume": { "box": [ -125.661, 243.547, 77.984, 98.035, 0, 0, 0, 129.272, 0, 0, 0, 72.978 ] },
+                        "geometricError": 15.625,
+                        "children": [
+                          {
+                            "boundingVolume": { "box": [ -140.514, 214.528, 90.973, 57.032, 0, 0, 0, 61.816, 0, 0, 0, 47.001 ] },
+                            "geometricError": 7.8125,
+                            "children": [
+                              {
+                                "boundingVolume": { "box": [ -155.608, 229.614, 100.97, 23.932, 0, 0, 0, 31.117, 0, 0, 0, 26.092 ] },
+                                "geometricError": 3.90625,
+                                "children": [
+                                  {
+                                    "boundingVolume": { "box": [ -158.423, 242.228, 106.16, 8.492, 0, 0, 0, 2.126, 0, 0, 0, 12.399 ] },
+                                    "geometricError": 1.953125,
+                                    "children": [],
+                                    "refine": "add",
+                                    "content": { "url": "tiles/59.b3dm" }
+                                  }
+                                ],
+                                "refine": "add",
+                                "content": { "url": "tiles/58.b3dm" }
+                              },
+                              {
+                                "boundingVolume": { "box": [ -121.542, 200.508, 77.682, 19.08, 0, 0, 0, 27.019, 0, 0, 0, 15.462 ] },
+                                "geometricError": 3.90625,
+                                "children": [],
+                                "refine": "add",
+                                "content": { "url": "tiles/60.b3dm" }
+                              },
+                              {
+                                "boundingVolume": { "box": [ -136.916, 232.356, 87.205, 29.099, 0, 0, 0, 21.623, 0, 0, 0, 29.814 ] },
+                                "geometricError": 3.90625,
+                                "children": [],
+                                "refine": "add",
+                                "content": { "url": "tiles/61.b3dm" }
+                              }
+                            ],
+                            "refine": "add",
+                            "content": { "url": "tiles/57.b3dm" }
+                          },
+                          {
+                            "boundingVolume": { "box": [ -147.377, 275.211, 93.02, 54.603, 0, 0, 0, 65.943, 0, 0, 0, 41.304 ] },
+                            "geometricError": 7.8125,
+                            "children": [
+                              {
+                                "boundingVolume": { "box": [ -155.839, 262.05, 98.216, 23.8, 0, 0, 0, 24.596, 0, 0, 0, 20.853 ] },
+                                "geometricError": 3.90625,
+                                "children": [],
+                                "refine": "add",
+                                "content": { "url": "tiles/63.b3dm" }
+                              },
+                              {
+                                "boundingVolume": { "box": [ -170.244, 276.208, 107.848, 8.87, 0, 0, 0, 2.404, 0, 0, 0, 11.647 ] },
+                                "geometricError": 3.90625,
+                                "children": [],
+                                "refine": "add",
+                                "content": { "url": "tiles/64.b3dm" }
+                              },
+                              {
+                                "boundingVolume": { "box": [ -128.62, 259.408, 81.233, 17.089, 0, 0, 0, 18.559, 0, 0, 0, 17.732 ] },
+                                "geometricError": 3.90625,
+                                "children": [],
+                                "refine": "add",
+                                "content": { "url": "tiles/65.b3dm" }
+                              }
+                            ],
+                            "refine": "add",
+                            "content": { "url": "tiles/62.b3dm" }
+                          },
+                          {
+                            "boundingVolume": { "box": [ -102.073, 210.231, 63.712, 40.895, 0, 0, 0, 62.639, 0, 0, 0, 35.126 ] },
+                            "geometricError": 7.8125,
+                            "children": [
+                              {
+                                "boundingVolume": { "box": [ -89.089, 201.035, 53.642, 8.959, 0, 0, 0, 2.524, 0, 0, 0, 12.661 ] },
+                                "geometricError": 3.90625,
+                                "children": [],
+                                "refine": "add",
+                                "content": { "url": "tiles/67.b3dm" }
+                              },
+                              {
+                                "boundingVolume": { "box": [ -108.463, 235.508, 69.152, 15.367, 0, 0, 0, 12.085, 0, 0, 0, 16.918 ] },
+                                "geometricError": 3.90625,
+                                "children": [],
+                                "refine": "add",
+                                "content": { "url": "tiles/68.b3dm" }
+                              }
+                            ],
+                            "refine": "add",
+                            "content": { "url": "tiles/66.b3dm" }
+                          }
+                        ],
+                        "refine": "add",
+                        "content": { "url": "tiles/56.b3dm" }
+                      },
+                      {
+                        "boundingVolume": { "box": [ -164.498, 309.596, 105.743, 11.045, 0, 0, 0, 5.694, 0, 0, 0, 15.972 ] },
+                        "geometricError": 15.625,
+                        "children": [],
+                        "refine": "add",
+                        "content": { "url": "tiles/69.b3dm" }
+                      }
+                    ],
+                    "refine": "add",
+                    "content": { "url": "tiles/55.b3dm" }
+                  }
+                ],
+                "refine": "add",
+                "content": { "url": "tiles/54.b3dm" }
+              }
+            ],
+            "refine": "add",
+            "content": { "url": "tiles/2.b3dm" }
+          }
+        ],
+        "refine": "add",
+        "content": { "url": "tiles/1.b3dm" }
+      }
+    ],
+    "refine": "add",
+    "transform": [ 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 0.0, 0.0, 0.0, 1.0, 0.0, 3830058.036, 324388.491, 5072788.606, 1.0 ]
+  }
+}

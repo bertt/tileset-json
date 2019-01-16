@@ -5,7 +5,11 @@ VisualStudioVersion = 16.0.28407.52
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tileset.json", "tileset.json\tileset.json.csproj", "{B1FA6C4E-96A5-41E7-81E9-2087EE072E32}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "tileset.json.tests", "tileset.json.tests\tileset.json.tests.csproj", "{C56FF85B-DAF5-47D9-A444-F5F8C4F00D3A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "tileset.json.tests", "tileset.json.tests\tileset.json.tests.csproj", "{C56FF85B-DAF5-47D9-A444-F5F8C4F00D3A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Samples", "Samples", "{3889656C-A4F7-4FD6-B55C-147198ED1457}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{402E84EA-57EB-4955-8CF4-3366C8ED5366}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,9 +25,16 @@ Global
 		{C56FF85B-DAF5-47D9-A444-F5F8C4F00D3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C56FF85B-DAF5-47D9-A444-F5F8C4F00D3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C56FF85B-DAF5-47D9-A444-F5F8C4F00D3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{402E84EA-57EB-4955-8CF4-3366C8ED5366}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{402E84EA-57EB-4955-8CF4-3366C8ED5366}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{402E84EA-57EB-4955-8CF4-3366C8ED5366}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{402E84EA-57EB-4955-8CF4-3366C8ED5366}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{402E84EA-57EB-4955-8CF4-3366C8ED5366} = {3889656C-A4F7-4FD6-B55C-147198ED1457}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {78C78B31-CB89-4551-9899-80DAC138BACC}
